@@ -1,0 +1,14 @@
+===>create virtual env 
+if your using anconda use conda create -m djangoenv
+===> activate env 
+conda activate djangoenv 
+now your in the new env path 
+===> install django in the new env
+pip install django 
+now you have succesully installed django 
+==> check for django version
+django-admin --version
+===> create new application 
+python manage.py startapp applicationName
+
+
